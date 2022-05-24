@@ -152,6 +152,8 @@ let createDoc;
           'tabSize': 2,
           'lineNumbers': true,
           'extraKeys': isMacKeymap ? macKeymap : pcKeymap,
+          'mode': "css",
+          'theme': "monokai",
         });
 
     CodeMirror.commands.save = onSave;
